@@ -63,9 +63,11 @@ a {
 .navbar {
     position: sticky;
     top: 0;
-    width: 35%;
+    width: 32%;
     margin: 0 auto;
     align-items: center;
+    border-color: #111;
+    border-style: groove;
 }
 
 .navbar ul {
@@ -73,7 +75,7 @@ a {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #222;
     display: flex;
     justify-content: center;
 }
@@ -88,8 +90,53 @@ a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: color 0.35s;
+    transition: background-color 0.35s;
 }
 
 .navbar li a:hover {
+    background-color: #111;
+    color: orange;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.35rem;
+    margin-top: 10rem;
+    color: white;
+    position: static;
+    bottom: 0;
+}
+
+.projects-card1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.projects-card2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.project {
+    width: 22rem;
+    height: 22rem;
     background-color: #222;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    text-align: center;
+    border-color: #111;
+    border-style: groove;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.35s;
+}
+
+.project:hover {
+    background-color: #111;
+    border-color: #000;
 }
