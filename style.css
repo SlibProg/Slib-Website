@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "Monocraft";
+    src: url("./fonts/Monocraft.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Minecraft";
+    src: url("./fonts/MinecraftTen.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --font-main: "Monocraft", monospace;
+    --font-big: "Minecraft", monospace;
+}
+
+.inicio {
+    text-align: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.skin {
+    width: 225px;
+    height: 225px;
+}
+
+body {
+    font-family: var(--font-main);
+    background-image: url("./imgs/background.png");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: white;
+}
