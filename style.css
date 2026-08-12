@@ -114,8 +114,9 @@ a {
 }
 
 .project {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: subgrid;
+    grid-row: span 3;
     width: 22em;
     height: 22em;
     background-color: #6C6A7C;
