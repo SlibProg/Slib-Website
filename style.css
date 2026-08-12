@@ -55,16 +55,16 @@ h4,
 h5,
 h6,
 p {
-    color: #c3c2c6;
+    color: #F5F5F5;
 }
 
 h1 {
-    color: #c3c2c6;
+    color: #F5F5F5;
     text-shadow: 0px 11px 9px rgba(0, 0, 0, 0.2);
 }
 
 a {
-    color: #90859B;
+    color: #F5F5F5;
     text-decoration: none;
 }
 
@@ -83,7 +83,7 @@ a {
     padding: 0;
     overflow: hidden;
     background-color: #100c1d;
-    box-shadow: 22px 22px 28px 20px rgba(0,0,0,0.1);
+    box-shadow: inset 22px 22px 28px 20px rgba(0,0,0,0.1);
     display: flex;
     justify-content: center;
 }
@@ -94,7 +94,7 @@ a {
 
 .navbar li a {
     display: block;
-    color: #c3c2c6;
+    color: #F5F5F5;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -126,30 +126,108 @@ a {
     border-style: solid;
     border-radius: 10px;
     border-width: 4px;
+    color: #F5F5F5;
     justify-content: center;
     align-items: center;
+}
+
+.project[id="1"] {
+    background-image: url(./imgs/repair-anvil.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.project[id="2"] {
+    background-image: url(./imgs/crops.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.project[id="3"] {
+    background-image: url(./imgs/asvcc.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.project[id="4"] {
+    background-image: url(./imgs/edonme-core.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.project[id="5"] {
+    background-image: url(./imgs/colored-apples.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.project[id="6"] {
+    background-image: url(./imgs/crafts.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.project[id="7"] {
+    background-image: url(./imgs/edonme-survival.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.project[id="8"] {
+    background-image: url(./imgs/block.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.project[id="9"] {
+    background-image: url(./imgs/monitor.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.project[id="10"] {
+    background-image: url(./imgs/3d-books.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.project[id="11"] {
+    background-image: url(./imgs/notebook.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .btn {
     background-color: #625E72;
     margin-top: auto;
-    color: #c3c2c6;
+    color: #F5F5F5;
     font-size: 25px;
     font-family: var(--font-big);
     font-weight: 400;
     padding: 10px 40px;
     border-radius: 10px;
-    box-shadow: 20px 20px 40px #534f60, -20px -20px 40px #706c83;
+    box-shadow: inset 20px 20px 40px #534f60, inset -20px -20px 40px #706c83;
     border: none;
     cursor: pointer;
     display: inline-block;
     text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.025em;
-    transition: font-size 0.35s;
+    transition: transform 0.35s;
 }
 
 .btn:hover {
     background-color: #534f60;
-    font-size: 28px;
+    transform: scale(1.06);
 }
