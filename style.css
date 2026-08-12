@@ -66,6 +66,11 @@ h1 {
 a {
     color: #F5F5F5;
     text-decoration: none;
+    transition: color 0.35s;
+}
+
+a:hover {
+    color: #988BA2;
 }
 
 .navbar {
@@ -98,13 +103,11 @@ a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    transition: color 0.35s;
     transition: background-color 0.35s;
 }
 
 .navbar li a:hover {
     background-color: #6C6A7C;
-    color: #988BA2;
 }
 
 .projects-card1 {
